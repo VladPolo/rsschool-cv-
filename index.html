@@ -1,1 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/img/favicon.ico" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-element">
+              <a href="#contacts">Contacts</a>
+            </li>
+            <li class="nav-element">
+              <a href="#about">About</a>
+            </li>
+            <li class="nav-element">
+              <a href="#skills">Skills</a>
+            </li>
+            <li class="nav-element">
+              <a href="#education">Education</a>
+            </li>
+            <li class="nav-element">
+              <a href="#language">Language</a>
+            </li>
+            <li class="nav-element">
+              <a href="#courses">Courses</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
+    <main class="main">
+      <div class="container">
+        <section class="profile">
+          <div class="my-avatar">
+            <img src="./assets/img/avatar.png" alt="avatar" />
+          </div>
+          <div class="profile-info">
+            <h1 class="my-name">Vladislav Polovets</h1>
+            <h2 class="my-profession">Future Front-end Developer</h2>
+          </div>
+        </section>
+
+        <div class="flex">
+          <div class="column1">
+            <section class="contacts" id="contacts">
+              <h3 class="my-contacts">Contacts</h3>
+              <ul class="list-contacts">
+                <li class="contacts-item">
+                  <h4 class="phone">Phone</h4>
+                  <p class="contacts-info">+375 44 714 20 27</p>
+                </li>
+                <li class="contacts-item">
+                  <h4 class="email">E-mail</h4>
+                  <a class="contacts-info" href="mailto:polovets_vlad@mail.ru"
+                    >polovets_vlad@mail.ru</a
+                  >
+                </li>
+                <li class="contacts-item">
+                  <h4 class="github">GitHub</h4>
+                  <a class="contacts-info" href="https://github.com/VladPolo"
+                    >VladPolo</a
+                  >
+                </li>
+              </ul>
+            </section>
+
+            <section class="skills" id="skills">
+              <h3 class="my-skills">Skills</h3>
+              <ul class="list-skills">
+                <li class="skills-item">
+                  <div>HTML5</div>
+                </li>
+                <li class="skills-item">
+                  <div>CSS3</div>
+                </li>
+                <li class="skills-item">
+                  <div>JavaScript</div>
+                </li>
+                <li class="skills-item">
+                  <div>DOM</div>
+                </li>
+                <li class="skills-item">
+                  <div>Figma</div>
+                </li>
+                <li class="skills-item">
+                  <div>Git</div>
+                </li>
+              </ul>
+            </section>
+
+            <section class="language" id="language">
+              <h3 class="my-language">Language</h3>
+              <ul class="list-language">
+                <li class="language-item">
+                  <div>Russian (Native speaker)</div>
+                </li>
+                <li class="language-item">
+                  <div>English (A2)</div>
+                </li>
+              </ul>
+            </section>
+          </div>
+
+          <div class="column2">
+            <section class="about" id="about">
+              <h3 class="my-about">About Me</h3>
+              <div class="list-about">
+                <p class="paragraph">
+                  I am 23 years old, I work as an economist. I think that my
+                  real work will someday lead me to stagnation. I have no real
+                  experience in front-end development. But I am ready to learn
+                  new things and achieve goals. My goal is to gain knowledge in
+                  front-end development.
+                </p>
+                <p class="paragraph">
+                  I have such personal qualities as the ability to easily find
+                  contact with people, self-condidence, the ability to set
+                  priorities, the ability to effectively plan your time,
+                  creative thinking, attention to detail, the ability to work in
+                  the time.
+                </p>
+              </div>
+            </section>
+
+            <section class="education" id="education">
+              <h3 class="my-education">Education</h3>
+              <ul class="list-education">
+                <li class="education-item">
+                  <h4>Belarusian National Economic University</h4>
+                  <p class="department">Management is innovative (2017-2021)</p>
+                </li>
+              </ul>
+            </section>
+
+            <section class="courses" id="courses">
+              <h3 class="my-courses">Courses</h3>
+              <ul class="list-courses">
+                <li class="courses-item">
+                  <div>HTML and CSS Tutorials on w3schools</div>
+                </li>
+                <li class="courses-item">
+                  <div>RS Schools «JavaScript/Front-end. Stage 0»</div>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <a href="https://github.com/VladPolo" class="my-github"
+          ><img src="./assets/img/github.png" alt="github"
+        /></a>
+        <div class="year">2022</div>
+        <a href="https://rs.school/js-stage0/" class="rsschool"
+          ><img src="./assets/img/logo.png" alt="courses"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
