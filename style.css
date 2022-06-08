@@ -1,0 +1,247 @@
+@font-face {
+    font-family: Gilroy, sans-serif;
+    src: url("assets/fonts/Gilroy-Regular.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Gilroy, sans-serif;
+    src: url("assets/fonts/Gilroy-Bold.ttf");
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #52596B;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1020px;
+    margin: 0 auto;
+    background-color: #343945;
+}
+
+.nav-list {
+    list-style: none;
+    line-height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-element a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 50px;
+    color: #ffffff;
+}
+
+.nav-element a:hover {
+    border-bottom: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+    background-color: #ffffff;
+    max-height: 381px;
+}
+
+.profile-info {
+    color: black;
+    padding: 70px 0px 0px 50px;
+}
+
+.my-name {
+    max-width: 310px;
+    font-size: 68px;
+    font-weight: bold;
+    line-height: 110%;
+}
+
+.my-profession {
+    font-size: 32px;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.contacts {
+    padding-top: 50px;
+}
+
+.my-contacts {
+    font-size: 24px;
+    background-color: #424752;
+    padding: 10px 340px 10px 30px;
+    border-left: 20px solid #F1C02C;
+}
+
+.list-contacts {
+    list-style: none;
+    padding-bottom: 70px;
+}
+
+.contacts-item a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.contacts-item  {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.contacts-info {
+    padding-top: 5px;
+}
+
+.contacts-item a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.my-skills {
+    font-size: 24px;
+    background-color: #424752;
+    padding: 10px 340px 10px 30px;
+    border-left: 20px solid #F1C02C;
+}
+
+.list-skills {
+    list-style: none;
+    padding-bottom: 70px;
+}
+
+.skills-item {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.my-language {
+    font-size: 24px;
+    background-color: #424752;
+    padding: 10px 340px 10px 30px;
+    border-left: 20px solid #F1C02C;
+}
+
+.language-item {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.list-language {
+    list-style: none;
+    padding-bottom: 70px;
+}
+
+.my-about {
+    font-size: 24px;
+    background-color: #EBEBEB;
+    padding: 10px 340px 10px 30px;
+    border-left: 20px solid #F1C02C;
+    color: #000000;
+}
+
+.paragraph {
+    text-indent: 25px;
+    color: #000000;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.list-about {
+    list-style: none;
+    padding-bottom: 70px;
+}
+
+.department {
+    padding-top: 5px;
+}
+
+.my-education {
+    font-size: 24px;
+    background-color: #EBEBEB;
+    padding: 10px 340px 10px 30px;
+    border-left: 20px solid #F1C02C;
+    color: #000000;
+}
+
+.list-education {
+    color: #000000;
+    list-style: none;
+    padding-bottom: 70px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.courses {
+    padding-bottom: 234px;
+}
+
+.my-courses {
+    font-size: 24px;
+    background-color: #EBEBEB;
+    padding: 10px 340px 10px 30px;
+    border-left: 20px solid #F1C02C;
+    color: #000000;
+}
+
+.list-courses {
+    color: #000000;
+    padding-bottom: 70px;
+    padding-left: 50px;
+}
+
+.courses-item {
+    padding-top: 20px;
+}
+
+.column1 {
+    width: 30%;
+}
+
+.column2 {
+    background-color: #ffffff;
+    width: 70%
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    background-color: #1D2027;
+    padding: 20px 50px;
+}
+
+.year {
+    font-weight: bold;
+    padding-left: 350px;
+}
+
+.rsschool {
+    padding-left: 200px;
+}
