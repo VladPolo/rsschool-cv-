@@ -165,8 +165,7 @@ body {
 .paragraph {
     text-indent: 25px;
     color: #000000;
-    padding-top: 20px;
-    padding-left: 50px;
+    padding: 20px 50px 0 50px;
 }
 
 .list-about {
@@ -195,7 +194,7 @@ body {
 }
 
 .courses {
-    padding-bottom: 234px;
+    padding-bottom: 70px;
 }
 
 .my-courses {
@@ -208,12 +207,44 @@ body {
 
 .list-courses {
     color: #000000;
-    padding-bottom: 70px;
     padding-left: 50px;
 }
 
 .courses-item {
     padding-top: 20px;
+}
+
+.my-code {
+    font-size: 24px;
+    background-color: #EBEBEB;
+    padding: 10px 340px 10px 30px;
+    border-left: 20px solid #F1C02C;
+    color: #000000;
+}
+
+.list-code {
+    color: #000000;
+    padding: 20px 50px 70px 50px;
+}
+
+.code-item {
+    margin-top: 0px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.violet {
+    color: violet;
+}
+
+.turquoise {
+    color: turquoise;
 }
 
 .column1 {
